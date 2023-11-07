@@ -1,6 +1,6 @@
 {
    "name": "@jbloggz/mock-fetch",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "A mock for the global fetch function that can be used for testing API calls",
    "main": "dist/mockFetch.js",
    "types": "dist/mockFetch.d.ts",
@@ -26,9 +26,11 @@
    },
    "homepage": "https://github.com/jbloggz/mock-fetch#readme",
    "devDependencies": {
-      "http-status-codes": "^2.3.0",
       "jsdom": "^22.1.0",
       "typescript": "^5.2.2",
       "vitest": "^0.34.6"
+   },
+   "dependencies": {
+      "http-status-codes": "^2.3.0"
    }
 }
